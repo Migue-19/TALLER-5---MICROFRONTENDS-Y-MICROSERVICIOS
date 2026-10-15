@@ -1,0 +1,44 @@
+# =============================================
+# ROOT .gitignore — Taller 5 Microfrontends & Microservicios
+# =============================================
+
+# Node dependencies (all subprojects)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build output
+dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+/documentation/
+
+# Angular cache
+.angular/cache
+__screenshots__/
+/coverage/
+/typings/
+testem.log
+/connect.lock
+/libpeerconnection.log
+.sass-cache/
+
+# IDE & editors
+.idea/
+.vscode/
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.history/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ZIP artifacts (do not commit the source zip)
+*.zip
